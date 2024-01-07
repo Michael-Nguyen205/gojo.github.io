@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            position: relative;
+
+        }
+
+        .backback {
+            overflow: hidden;
+        }
+
+        .back iframe {
+            margin-top: 40px;
+            width: 100%;
+            height: 900px;
+            z-index: 900000;
+        
+        }
+
+
+        .body {
+            width: 650px;
+            height: auto;
+        }
+
+        .than {
+
+            position: absolute;
+            top: 320px;
+            right: 0px;
+            animation-duration: 1.7s;
+            animation-name: body;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+
+        @keyframes body {
+            from {
+                transform: translateY(0) rotate(0)
+            }
+
+            to {
+                transform: translateY(30px) rotate(1deg)
+            }
+
+        }
+
+
+
+
+
+
+        .tayr img {
+            width: 206px;
+            height: auto;
+
+        }
+
+        .tayr {
+            right: -0px;
+            top: 230px;
+            position: absolute;
+            animation-name: tayr;
+
+            animation-duration: 1s;
+
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+
+        @keyframes tayr {
+            from {
+                transform: translateY(0) rotate(0) scaleX(97%)
+            }
+
+            to {
+                transform: translateY(15px) rotate(4deg)
+            }
+
+        }
+
+
+
+
+
+
+
+        .tayl img {
+            width: 480px;
+            height: auto;
+
+        }
+
+        .tayl {
+            right: 420px;
+            top: 30px;
+            position: absolute;
+            animation-name: tayl;
+
+            animation-duration: 1.3s;
+
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+
+        @keyframes tayl {
+            from {
+                transform: translateY(0)rotate(-4)
+            }
+
+            to {
+                transform: translateY(24px) rotate(4deg)
+            }
+
+        }
+
+
+
+
+
+     
+
+
+
+
+
+        .skill img {
+            width: 280px;
+            height: auto;
+        }
+
+        .skill {
+            top: -38px;
+    left: -117px;
+
+            position: absolute;
+
+
+
+            animation-name: horor1;
+            animation-duration: 0.021s;
+
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            z-index: 10000;
+        }
+
+        @keyframes horor1 {
+            from {
+                transform: rotate(5deg)
+            }
+
+            to {
+                transform: rotate(360deg) scale(0.9)
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+
+        .dau img {
+            width: 330px;
+            height: auto;
+
+        }
+
+        .dau {
+            right: 186px;
+            top: -173px;
+            position: absolute;
+            animation-name: dau;
+
+            animation-duration: 1.3s;
+
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            z-index: 20;
+        }
+
+        @keyframes dau {
+            from {
+                transform: translateY(0)
+            }
+
+            to {
+                transform: translateY(14px) skewX(1deg)
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .tocgiua img {
+            width: 353px;
+            height: auto;
+
+        }
+
+        .tocgiua {
+            right: 0px;
+            top: -93px;
+            position: absolute;
+            animation-name: tocgiua;
+
+            animation-duration: 0.8s;
+
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            z-index: 3000;
+        }
+
+        @keyframes tocgiua {
+            from {
+                transform: translateY(0)
+            }
+
+            to {
+                transform: translateY(0px) skewX(2deg)
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        .lay1l img {
+            width: 488px;
+            height: auto;
+
+        }
+
+        .lay1l {
+            right: -93px;
+            top: -90px;
+            position: absolute;
+            animation-name: lay1l;
+
+            animation-duration: 0.5s;
+
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            transform-origin: 100% 0%;
+            /* Chỉnh tâm xoay ở đỉnh */
+            z-index: 600;
+        }
+
+
+
+
+
+
+
+        .lay1l1 img {
+            width: 360px;
+            height: auto;
+
+        }
+
+       
+.lay1l1 {
+    right: 77px;
+    top: -87px;
+    position: absolute;
+    animation-duration: 1s;
+    animation-name: lay1l1;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    transform-origin: 10% 20%;
+   
+}
+        
+
+        @keyframes lay1l1 {
+            from {
+                transform: rotate(1deg)
+            }
+
+            to {
+
+                transform: rotate(-12deg) 
+            }
+
+        }
+
+ 
+
+
+
+
+
+
+        .lay1l2 img {
+            width: 59px;
+            height: auto;
+
+        }
+
+        .lay1l2 {
+            right: 340px;
+            top: -14px;
+            position: absolute;
+         
+
+            animation-duration: 0.5s;
+            animation-name: lay1l2;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            transform-origin: 19%;
+            /* Chỉnh tâm xoay ở đỉnh */
+            z-index: 0;
+        }
+
+        @keyframes lay1l2 {
+            from {
+                transform: rotate(5deg)
+            }
+
+            to {
+
+                transform: rotate(14deg)
+            }
+
+        }
+
+
+
+
+
+        .lay1l3 img {
+            width: 27px;
+            height: auto;
+
+        }
+
+        .lay1l3 {
+            right: 348px;
+            top: 80px;
+            position: absolute;
+         
+
+            animation-duration: 0.4s;
+            animation-name: lay1l3;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            transform-origin: 99%;
+            /* Chỉnh tâm xoay ở đỉnh */
+            z-index: 0;
+        }
+
+        @keyframes lay1l3 {
+            from {
+                transform: rotate(0deg)
+            }
+
+            to {
+
+                transform: rotate(5deg)
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .lay1r img {
+            width: 159px;
+            height: auto;
+
+        }
+
+        .lay1r {
+            right: -78px;
+            top: -92px;
+            position: absolute;
+         
+
+            animation-duration: 0.9s;
+            animation-name: lay1r;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            transform-origin: 19%;
+            /* Chỉnh tâm xoay ở đỉnh */
+            z-index: 3;
+        }
+
+      
+
+
+
+
+ .lay1r1 img {
+            width: 56px;
+            height: auto;
+
+        }
+
+        .lay1r1 {
+            right: -97px;
+            top: -85px;
+            position: absolute;
+         
+
+            animation-duration: 0.5s;
+            animation-name: lay1r1;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            transform-origin: 19%;
+            /* Chỉnh tâm xoay ở đỉnh */
+            z-index: 0;
+        }
+
+
+
+        @keyframes lay1r1 {
+            from {
+                transform: rotate(-6deg)
+            }
+
+            to {
+
+                transform: rotate(-14deg)
+            }
+
+        } 
+
+
+        
+
+ 
+        .lay1r2 img {
+            width: 60px;
+            height: auto;
+
+        }
+
+        .lay1r2 {
+            right: -104px;
+            top: -29px;
+            position: absolute;
+         
+
+            animation-duration: 1s;
+            animation-name: lay1r2;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            transform-origin: 10%;
+            /* Chỉnh tâm xoay ở đỉnh */
+            z-index: 0;
+        }
+
+
+        @keyframes lay1r2 {
+            from {
+                transform: rotate(9deg)
+            }
+
+            to {
+
+                transform: rotate(-5deg)
+            }
+
+        } 
+
+
+
+
+
+
+
+
+        .lay1r3 img {
+            width: 58px;
+            height: auto;
+
+        }
+
+        .lay1r3 {
+            right: -88px;
+            top: -94px;
+            position: absolute;
+         
+
+            animation-duration: 0.9s;
+            animation-name: lay1r3;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            transform-origin: 10%;
+            /* Chỉnh tâm xoay ở đỉnh */
+            z-index: 0;
+        }
+
+
+        @keyframes lay1r3 {
+            from {
+                transform: rotate(0deg)
+            }
+
+            to {
+
+                transform: rotate(-6deg)
+            }
+
+        } 
+
+
+
+
+
+
+
+
+
+
+
+
+        .soitoc img {
+            width: 20px;
+            height: auto;
+
+        }
+
+        .soitoc {
+            right: 165px;
+            top: 70px;
+            position: absolute;
+            animation-name: soitoc;
+
+            animation-duration: 1.6s;
+
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            transform-origin: 100% 0%;
+            /* Chỉnh tâm xoay ở đỉnh */
+            z-index: 10;
+        }
+
+        @keyframes soitoc {
+            from {
+                transform: rotate(-14deg)
+            }
+
+            to {
+
+                transform: rotate(-30deg)
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+
+        .soitoc2 img {
+            width: 20px;
+            height: auto;
+
+        }
+
+        .soitoc2 {
+            right: 237px;
+            top: 70px;
+            position: absolute;
+            animation-name: soitoc2;
+
+            animation-duration: 1.5s;
+
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            transform-origin: 100% 0%;
+            /* Chỉnh tâm xoay ở đỉnh */
+            z-index: 10;
+        }
+
+        @keyframes soitoc2 {
+            from {
+                transform: rotate(-10deg)
+            }
+
+            to {
+
+                transform: rotate(1deg)
+            }
+
+        }
+
+
+
+
+
+
+
+
+        .soitocnhat img {
+            width: 20px;
+            height: auto;
+
+        }
+
+        .soitocnhat {
+            right: 271px;
+            top: 130px;
+            position: absolute;
+            animation-name: soitocnhat;
+
+            animation-duration: 0.5s;
+
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            transform-origin: 100% 0%;
+            /* Chỉnh tâm xoay ở đỉnh */
+            z-index: 600;
+        }
+
+        @keyframes soitocnhat {
+            from {
+                transform: rotate(-3deg)
+            }
+
+            to {
+
+                transform: rotate(3deg)
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+ .mattrai img {
+            width: 20px;
+            height: auto;
+
+        }
+
+        .mattrai {
+            right: 220px;
+            top: 135px;
+            position: absolute;
+            animation-name: mat;
+
+            animation-duration: 3s;
+
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            z-index: 4;
+        }
+
+        @keyframes mat {
+            from {
+                transform: translateY(0)
+            }
+
+            to {
+                transform: translateY(-9px)
+            }
+
+        }
+
+
+
+
+
+
+        .matphai img {
+            width: 20px;
+            height: auto;
+
+        }
+
+        .matphai {
+            right: 94px;
+            top: 113px;
+            position: absolute;
+            animation-name: mat;
+
+            animation-duration: 3s;
+
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            z-index: 4;
+        }
+    </style>
+
+    <div class="gojo">
+        <div class="container">
+            <div class="back">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ztVV54sPOns?si=r8trSNt3PkyFloBK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+
+
+
+
+
+
+
+            <div class="nguoi">
+                <div class="than">
+                    <img src="body.PNG" class="body">
+                    <div class="tayl">
+                        <img src="lhand.PNG" alt="">
+                    </div>
+                    <div class="tayr">
+                        <img src="rhand.PNG" alt="">
+                    </div>
+
+                    <div class="skill">
+
+                        <img src="skill.WEBP">
+
+                    </div>
+
+
+
+                    <div class="dau">
+                        <img src="head.PNG" alt="">
+
+                        <div class="tocgiua">
+
+                            <img src="hairmid.PNG" alt="">
+
+                            <div class="soitoc">
+                                <img src="soitoc.PNG" alt="">
+
+                            </div>
+
+                            <div class="soitoc2">
+                                <img src="soitocnhat1.PNG" alt="">
+
+                            </div>
+
+
+                            <div class="soitocnhat">
+                                <img src="soitocnhat1.PNG" alt="">
+
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="mattrai">
+                            <img src="eye1.PNG" alt="">
+                        </div>
+
+                        <div class="matphai">
+                            <img src="eye2.PNG" alt="">
+                        </div>
+
+                      
+
+
+
+                            <div class="lay1l">
+                                <img src="lay1l.PNG" alt="">
+                            </div>
+                          
+                            <div class="lay1l1">
+                                <img src="lay1l1.PNG" alt="">
+                            </div>
+                            <div class="lay1l2">
+                                <img src="lay1l2.PNG" alt="">
+                            </div>
+                            <div class="lay1l3">
+                                <img src="lay1l3.PNG" alt="">
+                            </div>
+
+
+
+
+
+
+
+
+                            <div class="lay1r">
+                                <img src="lay1r.PNG" alt="">
+                            </div>
+                          
+                            <div class="lay1r1">
+                                <img src="lay1r1.PNG" alt="">
+                            </div>
+                            <div class="lay1r2">
+                                <img src="lay1r2.PNG" alt="">
+                            </div>
+                            <div class="lay1r3">
+                                <img src="lay1r3.PNG" alt="">
+                            </div>
+
+      </div>
+
+     </div> -
+
+    </div>
+            </div>
+
+ </div>
+    </div>
+    </div>
+
+
+
+
+
+    <div class="tia" style=" right: 1200px;">
+        <img src="tia1.PNG" alt="">
+    </div>
+    <div class="tia chan tia-1" style=" right: 1100px;rotate: 40deg;">
+        <img src="tia1.PNG" alt="">
+    </div>
+    <div class="tia le tia2" style=" right: 1000px;   animation-delay: 2s;  rotate: 60deg;">
+        <img src="tia1.PNG" alt="">
+    </div>
+    <div class="tia chan tia3" style=" right: 1900px; width: 40px;">
+        <img src="tia1.PNG" alt="">
+    </div>
+    <div class="tia le tia4" style=" right: 800px; animation-delay: 3s; width: 30px;">
+        <img src="tia1.PNG" alt="">
+    </div>
+
+    <div class="tia chan tia5" style=" right: 1200px;   animation-delay: 2s;  rotate: 60deg;">
+        <img src="tia1.PNG" alt="">
+    </div>
+    <div class="tia le tia6" style=" right: 1100px;   animation-delay: 4s;  rotate: 50deg;">
+        <img src="tia1.PNG" alt="">
+    </div>
+    <div class="tia chan tia7" style=" right: 1400px;   animation-delay: 5s;  rotate: 50deg;">
+        <img src="tia1.PNG" alt="">
+    </div>
+
+
+
+
+
+    <div class="to">
+    <div class="tia le tia8" style=" right: 800px;   animation-delay: 7s;  rotate: 40deg;">
+        <img src="tia1.PNG" alt="">
+    </div>
+
+    <div class="tia chan tia9" style=" right: 1200px;   animation-delay: 3s;  rotate: 40deg;">
+        <img src="tia1.PNG" alt="">
+    </div>
+    <div class="tia le tia10" style=" right: 1100px;   animation-delay: 4s;  rotate: 20deg;">
+        <img src="tia1.PNG" alt="">
+    </div>
+    <div class="tia chan tia11" style=" right: 100px;   animation-delay: 1s;  rotate: 80deg;">
+        <img src="tia1.PNG" alt="">
+    </div>
+    <div class="tia le tia12" style=" right: 300px;   animation-delay: 7s;  rotate: 40deg;">
+        <img src="tia1.PNG" alt="">
+    </div>
+    
+</div>
+    
+
+
+
+<style>
+
+
+
+
+.to img{
+    width: 70px;
+            height: auto; 
+}
+
+
+        .tia img {
+            width: 30px;
+            height: auto;
+        }
+    
+        .tia {
+           
+            top: 1000px;
+          
+            position: absolute;
+            animation: tia-xoay 7s linear infinite;
+          
+            z-index: 4;
+            rotate: 45deg;
+        }
+
+
+
+ @keyframes tia-xoay {
+            0% {
+                transform: translateY(0) rotate(10deg) 
+            }
+
+            0% {
+                transform: translateY(0) rotate(10deg);
+            }
+
+            0% {
+                transform: translateY(0) rotate(100deg);
+            }
+
+            0% {
+                transform: translateY(0) rotate(10deg);
+            }
+        
+            100% {
+                transform: translateY(-2000px) rotate(10deg) 
+            }
+        }
+
+
+</style>
+    
+
+
+
+<style>
+
+
+
+.chan img{
+        width: 100px; 
+        height: auto;
+       
+    }
+    .chan{
+        animation: cham 2s linear infinite;
+    }
+
+@keyframes cham {
+    0% {
+        transform: translateY(0) rotate(10deg) 
+    }
+
+    0% {
+        transform: translateY(0) rotate(10deg);
+    }
+
+    0% {
+        transform: translateY(0) rotate(100deg);
+    }
+
+    0% {
+        transform: translateY(0) rotate(10deg);
+    }
+
+    100% {
+        transform: translateY(-2000px) rotate(10deg) 
+    }
+}
+
+</style>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            position: relative;
+
+        }
+
+        .backback {
+            overflow: hidden;
+        }
+
+        .back img {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }
+
+
+        .body {
+            width: 650px;
+            height: auto;
+        }
+
+        .than {
+
+            position: absolute;
+            top: 320px;
+            right: 0px;
+            animation-duration: 1.7s;
+            animation-name: body;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+
+        @keyframes body {
+            from {
+                transform: translateY(0) rotate(0)
+            }
+
+            to {
+                transform: translateY(30px) rotate(1deg)
+            }
+
+        }
+
+
+
+
+
+
+        .tayr img {
+            width: 206px;
+            height: auto;
+
+        }
+
+        .tayr {
+            right: -0px;
+            top: 230px;
+            position: absolute;
+            animation-name: tayr;
+
+            animation-duration: 2s;
+
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+
+        @keyframes tayr {
+            from {
+                transform: translateY(0) rotate(0)
+            }
+
+            to {
+                transform: translateY(9px) rotate(-5deg)
+            }
+
+        }
+
+
+
+
+
+
+
+        .tayl img {
+            width: 480px;
+            height: auto;
+
+        }
+
+        .tayl {
+            right: 420px;
+            top: 30px;
+            position: absolute;
+            animation-name: tayl;
+
+            animation-duration: 1.3s;
+
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+
+        @keyframes tayl {
+            from {
+                transform: translateY(0)
+            }
+
+            to {
+                transform: translateY(20px)
+            }
+
+        }
+
+
+
+
+
+        /* 
+
+
+
+        .skill {
+            top: 100px;
+            left: 550px;
+
+            position: absolute;
+
+
+
+            animation-name: horor1;
+            animation-duration: 0.001s;
+
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            animation-direction:alternate-reverse;
+            z-index: 10000;
+        }
+
+        @keyframes horor1 {
+            from {
+                transform: rotate(5deg)
+            }
+
+            to {
+                transform: rotate(360deg) scale(0.4) 
+            }
+
+        }
+
+
+ */
+
+
+
+
+
+
+
+        .skill img {
+            width: 320px;
+            height: auto;
+        }
+
+        .skill {
+            top: -120px;
+            left: -200px;
+
+            position: absolute;
+
+
+
+            animation-name: horor1;
+            animation-duration: 0.021s;
+
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            z-index: 10000;
+        }
+
+        @keyframes horor1 {
+            from {
+                transform: rotate(5deg)
+            }
+
+            to {
+                transform: rotate(360deg) scale(0.9)
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+
+        .dau img {
+            width: 330px;
+            height: auto;
+
+        }
+
+        .dau {
+            right: 198px;
+            top: -173px;
+            position: absolute;
+            animation-name: dau;
+
+            animation-duration: 1.3s;
+
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            z-index: 20;
+        }
+
+        @keyframes dau {
+            from {
+                transform: translateY(0)
+            }
+
+            to {
+                transform: translateY(14px)
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .tocgiua img {
+            width: 350px;
+            height: auto;
+
+        }
+
+        .tocgiua {
+            right: 0px;
+            top: -46px;
+            position: absolute;
+            animation-name: tocgiua;
+
+            animation-duration: 0.5s;
+
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            z-index: 3000;
+        }
+
+        @keyframes tocgiua {
+            from {
+                transform: translateY(0)
+            }
+
+            to {
+                transform: translateY(0px) skewX(3deg)
+            }
+
+        }
+
+
+
+
+
+        .lay1 img {
+            width: 420px;
+            height: auto;
+
+        }
+
+        .lay1 {
+            right: -45px;
+            top: -43px;
+            position: absolute;
+            animation-name: lay1;
+
+            animation-duration: 1s;
+
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            z-index: 39;
+        }
+
+        @keyframes lay1 {
+            from {
+                transform: translateY(0)
+            }
+
+            to {
+                transform: translateY(-4px)
+            }
+
+        }
+
+
+
+
+        .lay2 img {
+            width: 498px;
+            height: auto;
+
+        }
+
+        .lay2 {
+            right: -34px;
+            top: 12px;
+            position: absolute;
+            animation-name: lay2;
+
+            animation-duration: 1s;
+
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            z-index: 30;
+        }
+
+        @keyframes lay2 {
+            from {
+                transform: translateY(0)
+            }
+
+            to {
+                transform: translateY(-4px) skewY(1deg)
+            }
+
+        }
+
+
+
+
+        .lay3 img {
+            width: 498px;
+            height: auto;
+
+        }
+
+        .lay3 {
+            right: -34px;
+            top: -5px;
+            position: absolute;
+            animation-name: lay3;
+
+            animation-duration: 0.7s;
+
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            z-index: 30;
+        }
+
+        @keyframes lay3 {
+            from {
+                transform: translateY(0) rotate(0.2)
+            }
+
+            to {
+                transform: translateY(-4px) skewx(3deg)rotate(0.2)
+            }
+
+        }
+
+
+
+
+
+
+
+
+        .lay4 img {
+            width: 452px;
+            height: auto;
+
+        }
+
+        .lay4 {
+            right: -34px;
+            top: -0px;
+            position: absolute;
+            animation-name: lay4;
+            animation-duration: 0.5s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            z-index: 2;
+        }
+
+        @keyframes lay4 {
+            from {
+                transform: translateY(0)
+            }
+
+            to {
+                transform: translateY(-4px) skewx(3deg)
+            }
+
+        }
+
+
+
+
+
+
+
+        .soitoc img {
+            width: 20px;
+            height: auto;
+
+        }
+
+        .soitoc {
+            right: 165px;
+            top: 70px;
+            position: absolute;
+            animation-name: soitoc;
+
+            animation-duration: 1.6s;
+
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            transform-origin: 100% 0%;
+            /* Chỉnh tâm xoay ở đỉnh */
+            z-index: 10;
+        }
+
+        @keyframes soitoc {
+            from {
+                transform: rotate(0)
+            }
+
+            to {
+
+                transform: rotate(-30deg)
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+
+        .soitoc2 img {
+            width: 20px;
+            height: auto;
+
+        }
+
+        .soitoc2 {
+            right: 237px;
+            top: 70px;
+            position: absolute;
+            animation-name: soitoc2;
+
+            animation-duration: 2s;
+
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            transform-origin: 100% 0%;
+            /* Chỉnh tâm xoay ở đỉnh */
+            z-index: 10;
+        }
+
+        @keyframes soitoc2 {
+            from {
+                transform: rotate(-10deg)
+            }
+
+            to {
+
+                transform: rotate(20deg)
+            }
+
+        }
+
+
+
+
+
+
+
+
+        .soitocnhat img {
+            width: 20px;
+            height: auto;
+
+        }
+
+        .soitocnhat {
+            right: 254px;
+            top: 109px;
+            position: absolute;
+            animation-name: soitocnhat;
+
+            animation-duration: 0.5s;
+
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            transform-origin: 100% 0%;
+            /* Chỉnh tâm xoay ở đỉnh */
+            z-index: 600;
+        }
+
+        @keyframes soitocnhat {
+            from {
+                transform: rotate(-3deg)
+            }
+
+            to {
+
+                transform: rotate(3deg)
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .mattrai img {
+            width: 20px;
+            height: auto;
+
+        }
+
+        .mattrai {
+            right: 220px;
+            top: 130px;
+            position: absolute;
+            animation-name: mat;
+
+            animation-duration: 2s;
+
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            z-index: 4;
+        }
+
+        @keyframes mat {
+            from {
+                transform: translateY(0)
+            }
+
+            to {
+                transform: translateY(-9px)
+            }
+
+        }
+
+
+
+
+
+
+        .matphai img {
+            width: 20px;
+            height: auto;
+
+        }
+
+        .matphai {
+            right: 94px;
+            top: 108px;
+            position: absolute;
+            animation-name: mat;
+
+            animation-duration: 2s;
+
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            z-index: 4;
+        }
+    </style>
+
+    <div class="gojo">
+        <div class="container">
+            <div class="back">
+                <img src="back.JPEG">
+            </div>
+
+
+
+
+
+
+
+
+            <div class="nguoi">
+                <div class="than">
+                    <img src="body.PNG" class="body">
+                    <div class="tayl">
+                        <img src="lhand.PNG" alt="">
+                    </div>
+                    <div class="tayr">
+                        <img src="rhand.PNG" alt="">
+                    </div>
+
+                    <div class="skill">
+
+                        <img src="skill.WEBP">
+
+                    </div>
+
+
+
+                    <div class="dau">
+                        <img src="head.PNG" alt="">
+
+                        <div class="tocgiua">
+
+                            <img src="hairmid.PNG" alt="">
+
+                            <div class="soitoc">
+                                <img src="soitoc.PNG" alt="">
+
+                            </div>
+
+                            <div class="soitoc2">
+                                <img src="soitocnhat1.PNG" alt="">
+
+                            </div>
+
+
+                            <div class="soitocnhat">
+                                <img src="soitocnhat1.PNG" alt="">
+
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="mattrai">
+                            <img src="eye1.PNG" alt="">
+                        </div>
+
+                        <div class="matphai">
+                            <img src="eye2.PNG" alt="">
+                        </div>
+
+                       
+
+                        </div>
+
+
+
+                    </div> -
+
+
+
+
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+<div class="tia">
+    <img src="lua.png"">
+</div>
+
+
+
+  </div>
+    </div>
+    </div>
+
+
+
+
+<style>
+        .tia img {
+            width: 200px;
+            height: auto;
+
+        }
+
+        .tia {
+            right: 820px;
+            top: 1500px;
+            position: absolute;
+            animation: tia;
+animation: xoay;
+            animation-duration: 100s;
+
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            /* transform-origin: 20% 80%; */
+         
+            z-index: 4;
+        }
+
+
+
+        @keyframes xoay {
+            from {
+                transform:rotateZ(20deg) 
+            }
+
+            to {
+                transform:rotateZ(30deg) translateY(-5000px)
+            }
+
+
+
+
+        }
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+    </style>
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
